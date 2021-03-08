@@ -1,0 +1,99 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/* Modular Scale 1.4 
+	.714
+	1
+	1.4
+	1.96
+	2.744
+	3.842 */
+
+/* typographic styles */
+html {
+	font-family: Georgia, serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1rem;
+	line-height: 1.375em; /* use .6875 as baseline grid or 11px */
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 700; 
+}
+
+h1 {
+	font-size: 3.842rem;
+	line-height: 3.4375rem; /* .6875 x 5 */
+	margin-bottom: .6875rem; /* .6875 x 1 */
+}
+ 
+h2 {
+	font-size: 1.96rem;
+	line-height: 2.0625rem; /* .6875 x 3 */
+	margin-bottom: .6875rem; /* .6875 x 1 */
+	margin-top: 2.0625rem; /* .6875 x 3 */
+}
+
+p {
+	margin-bottom: 1.375rem; /* .6875 x 2 */
+}
+
+a:link {
+	color: #000000;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #555555;
+  /*! text-decoration: underline; */
+}
+
+a:focus {
+	outline: #000000 solid;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:active {
+	color: #ffffff;
+	background-color: #000000;
+}
+figcaption {
+	font-style: italic;
+	font-size: small;
+}
+/* images */
+
+
+/* layout styles */
+
+main, footer ,header {
+	margin-top: 2.0625rem; /* .6875 x 3 */
+	max-width: 35rem;
+	padding-left: 2.0625rem; /* .6875 x 3 */
+	padding-right: 2.0625rem; /* .6875 x 3 */
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+@media screen and (min-width: 50rem){
+	html {
+		font-size: 1.4rem;
+	}
+
+}
+
+@media screen and (min-width:100rem){
+	html {
+		font-size: 2.96rem;
+	}
+}
+
