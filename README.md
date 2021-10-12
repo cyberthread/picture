@@ -1,8 +1,8 @@
 # Picture Exercise
-This exercise is a basic introduction to some of the skills needed to art direct imagery on your website. For this exercise you will need to know how to crop and export images from your image editing software (if using Photoshop you'll need to use the crop tool and "export as") in addition to being familiar with both the image and picture elements in HTML.
+This exercise is a basic introduction to some of the skills needed to art direct imagery on your website. This exercise requires familiarity with both the image and picture elements in HTML and exporting images from photo editing software.
 
 In this exercise you will:
-- Export images in a specific file format, resolution, aspect ratio, and color mode
+- Export images for the web.
 - Practice very basic default styling for images
 - Use the picture element to "art direct" the images used across screen sizes
 
